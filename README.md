@@ -25,7 +25,7 @@ Usage:
 
 ```neon
 extensions: 
-    mailFallback: Galek\MailFallback\DI\FallbackExtension
+    mailFallback: Galek\MailFallback\FallbackExtension
     
 mailFallback:
     retryCount: 3
@@ -42,7 +42,7 @@ mailFallback:
 ### Presenter ###
 
 ```php
-    /** @var \Galek\Utils\MailFallback\MailFallback @inject */
+    /** @var \Galek\MailFallback\MailFallback @inject */
     public $mailer;
     
     public function sendMail(\Nette\Mail\Message $mail)

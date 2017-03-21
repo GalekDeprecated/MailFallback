@@ -1,6 +1,6 @@
 <?php
 
-namespace Galek\MailFallback\DI;
+namespace Galek\MailFallback;
 
 use Nette\DI\CompilerExtension;
 
@@ -24,7 +24,7 @@ class FallbackExtension extends CompilerExtension
         ]);
 
         $builder->addDefinition($this->prefix('mailer'))
-            ->setClass('Galek\MailFallback', [
+            ->setClass('Galek\MailFallback\MailFallback', [
                 'config' => $config
             ]);
     }
