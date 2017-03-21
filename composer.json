@@ -12,7 +12,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Galek\\": "src/Galek/Utils/MailFallback"
+      "Galek\\": "src/Galek/Utils/MailFallback",
       "Galek\\DI\\": "src/Galek/Utils/MailFallback/DI"
     }
   },
