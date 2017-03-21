@@ -1,6 +1,6 @@
 <?php
 
-namespace Galek\DI;
+namespace Galek\MailFallback\DI;
 
 use Nette\DI\CompilerExtension;
 

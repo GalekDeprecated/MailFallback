@@ -12,8 +12,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "Galek\\": "src/Galek/Utils/MailFallback",
-      "Galek\\DI\\": "src/Galek/Utils/MailFallback/DI"
+      "Galek\\MailFallback\\": "src/Galek/Utils/MailFallback",
+      "Galek\\MailFallback\\DI\\": "src/Galek/Utils/MailFallback/DI"
     }
   },
   "require": {
