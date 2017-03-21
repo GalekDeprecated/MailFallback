@@ -1,6 +1,6 @@
 <?php
 
-namespace Galek\MailFallback;
+namespace Galek;
 
 use Nette\Mail\FallbackMailer;
 use Nette\Mail\SendmailMailer;
